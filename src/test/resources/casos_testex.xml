@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<procedimento num="0" desc="cria  cadastros com confirmação de senha errada">
+
+   <caso num="0">
+    <idadeAtual>17</idadeAtual>
+    <idadeAposentadoria>60</idadeAposentadoria>
+    <periodicidade>Mensal</periodicidade>
+    <rentabilidade>8%</rentabilidade>
+    <tipoDeRenda>Vitalícia</tipoDeRenda>
+    <aporteInicial>1000,00</aporteInicial>
+    <simulacaoAcertiva>R$ 21.069,40</simulacaoAcertiva>
+  </caso>
+  
+   <caso num="1">
+    <idadeAtual>30</idadeAtual>
+    <idadeAposentadoria>50</idadeAposentadoria>
+    <periodicidade>Única</periodicidade>
+    <rentabilidade>5%</rentabilidade>
+    <tipoDeRenda>Vitalícia</tipoDeRenda>
+    <aporteInicial>200000,00</aporteInicial>
+    <simulacaoAcertiva>R$ 2.216,53</simulacaoAcertiva>
+  </caso>
+  
+  <caso num="2">
+    <idadeAtual>vinte e quatro</idadeAtual>
+    <idadeAposentadoria>90</idadeAposentadoria>
+    <periodicidade>Única</periodicidade>
+    <rentabilidade>8%</rentabilidade>
+    <tipoDeRenda>Vitalícia</tipoDeRenda>
+    <aporteInicial>20,00</aporteInicial>
+    <simulacaoErronea>- Idade atual não é um número válido!</simulacaoErronea>
+  </caso>
+  
+  <caso num="3">
+    <idadeAtual>30</idadeAtual>
+    <idadeAposentadoria>50</idadeAposentadoria>
+    <periodicidade>Única</periodicidade>
+    <rentabilidade>5%</rentabilidade>
+    <tipoDeRenda>Vitalícia</tipoDeRenda>
+    <aporteInicial></aporteInicial>
+    <simulacaoErronea>- Valor mínimo para contribuição única é de R$ 1.000,00.</simulacaoErronea>
+  </caso>
+  </procedimento>
